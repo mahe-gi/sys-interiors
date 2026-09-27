@@ -1,59 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 310" width="240" height="310" fill="none">
-  <!-- Architectural Skyline Icon (Vibrant Crimson) -->
-  <g transform="translate(12, 10)">
-    <!-- Base Reference Line -->
-    <path d="M 18 126 L 198 126" stroke="#DE2626" stroke-width="3" stroke-linecap="round" opacity="0.15"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 370" width="320" height="370" fill="none">
+  <!-- ============================================================ -->
+  <!-- 1. TOP: ARCHITECTURAL RED SKYLINE & TOWER GRAPHIC           -->
+  <!-- ============================================================ -->
+  <g id="architectural-icon">
+    <!-- Left Wing Baseline Extension -->
+    <path d="M 52 118 L 84 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round"/>
 
-    <!-- Left Building Wireframe -->
-    <path d="M 44 126 L 44 88 L 68 64 L 92 78 L 92 126" 
-          stroke="#DE2626" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <line x1="68" y1="64" x2="68" y2="126" stroke="#DE2626" stroke-width="3" stroke-linecap="round"/>
-    <!-- Left Wing Outer Line -->
-    <path d="M 22 126 L 22 108 L 44 88" 
-          stroke="#DE2626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Left Building Outline -->
+    <path d="M 84 118 L 84 76 L 132 54" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line x1="84" y1="118" x2="84" y2="76" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round"/>
 
-    <!-- Right Building Wireframe & Dynamic Architectural Ribbon -->
-    <path d="M 124 126 L 124 74 L 148 60 L 172 82 L 172 126" 
-          stroke="#DE2626" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <line x1="148" y1="60" x2="148" y2="126" stroke="#DE2626" stroke-width="3" stroke-linecap="round"/>
-    <!-- Right Wing Outer Arch / Slant -->
-    <path d="M 172 82 L 194 102 L 194 126" 
-          stroke="#DE2626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Dynamic Crossing Architectural Stroke -->
-    <path d="M 132 118 Q 164 100 188 116" 
-          stroke="#DE2626" stroke-width="3.5" stroke-linecap="round" fill="none"/>
-
-    <!-- Central Featured Skyscraper Tower -->
-    <!-- Solid Facet Left -->
-    <path d="M 92 126 L 92 36 L 108 12 L 108 126 Z" fill="#DE2626"/>
-    <!-- Facet Right (Geometric Perspective) -->
-    <path d="M 108 12 L 124 28 L 124 126 L 108 126 Z" fill="#BE1E1E"/>
-    <!-- Vertical Spine Divider -->
-    <line x1="108" y1="12" x2="108" y2="126" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
-    <!-- Rooftop Slant Cap Outline -->
-    <path d="M 92 36 L 108 12 L 124 28" stroke="#DE2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Central Skyscraper (Slanted 3D Roofline & Solid Pillar) -->
+    <!-- Solid Left Pillar -->
+    <path d="M 132 118 L 132 54 L 152 44 L 152 118 Z" fill="#DE2420"/>
+    <!-- Central Tower Slanted Top Profile -->
+    <path d="M 132 54 L 170 34 L 170 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Tower Right Wall -->
+    <line x1="170" y1="34" x2="170" y2="118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round"/>
+    
+    <!-- Right Building Outline & Diagonal Structural Ribbon -->
+    <!-- Upper Sloping Roof -->
+    <path d="M 170 54 L 208 68 L 208 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Diagonal Crossing Ribbon -->
+    <path d="M 170 88 L 228 108 L 228 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
 
-  <!-- Middle: Bold Royal Navy Lettermark "SYS" -->
-  <g transform="translate(120, 218)">
+  <!-- ============================================================ -->
+  <!-- 2. MIDDLE: AUTHENTIC "SYS" WITH HOLLOW / INTERLOCKING "Y"   -->
+  <!-- ============================================================ -->
+  <g id="sys-lettermark" transform="translate(0, 10)">
+    <!-- Defs for Knockout clipping / masking between Y and S's -->
+    <!-- Left 'S': Solid Royal Navy Blue -->
+    <path d="M 102 165 C 102 153 92 144 76 144 C 60 144 48 152 48 167 C 48 181 58 189 74 195 C 95 203 108 212 108 230 C 108 248 93 259 72 259 C 50 259 36 247 36 230 L 58 226 C 60 236 68 241 74 241 C 82 241 87 236 87 229 C 87 218 77 212 61 205 C 44 198 28 188 28 167 C 28 147 45 128 76 128 C 104 128 122 145 122 165 Z"
+          fill="#113570"/>
+
+    <!-- Right 'S': Solid Royal Navy Blue -->
+    <path d="M 284 165 C 284 153 274 144 258 144 C 242 144 230 152 230 167 C 230 181 240 189 256 195 C 277 203 290 212 290 230 C 290 248 275 259 254 259 C 232 259 218 247 218 230 L 240 226 C 242 236 250 241 256 241 C 264 241 269 236 269 229 C 269 218 259 212 243 205 C 226 198 210 188 210 167 C 210 147 227 128 258 128 C 286 128 304 145 304 165 Z"
+          fill="#113570"/>
+
+    <!-- Central 'Y' - Distinctive Hollow Geometric Structure with White Knockout -->
+    <!-- White Knockout Mask/Border behind Y to cleanly separate from S curves -->
+    <path d="M 120 133 L 146 133 L 152 154 L 152 248 L 144 258 L 186 258 L 178 248 L 178 154 L 184 133 L 210 133 L 188 184 L 188 252 L 142 252 L 142 184 Z"
+          stroke="#F6F3EE" stroke-width="9" stroke-linejoin="round" fill="none"/>
+
+    <!-- Outer 'Y' Shell in Deep Navy -->
+    <path d="M 122 133 L 148 133 L 165 174 L 182 133 L 208 133 L 180 190 L 180 252 L 150 252 L 150 190 Z"
+          fill="#113570"/>
+
+    <!-- Inner Hollow Core (White/Transparent Negative Space matching exact logo) -->
+    <!-- The hollow rectangular vertical channel in the stem -->
+    <rect x="159" y="196" width="12" height="46" rx="2" fill="#F6F3EE"/>
+    <!-- The upper V-notch cutout -->
+    <polygon points="152,133 178,133 165,164" fill="#F6F3EE"/>
+    <!-- Lower Base Bar in Deep Navy connecting bottom -->
+    <rect x="150" y="244" width="30" height="8" rx="1" fill="#113570"/>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- 3. BOTTOM: CRISP BOLD RED WORDMARK "INTERIORS"               -->
+  <!-- ============================================================ -->
+  <g id="interiors-wordmark" transform="translate(160, 305)">
     <text text-anchor="middle" 
-          font-family="system-ui, -apple-system, 'Montserrat', 'Helvetica Neue', Arial, sans-serif" 
-          font-size="78" 
+          font-family="system-ui, -apple-system, 'Montserrat', 'Arial Black', sans-serif" 
+          font-size="33" 
           font-weight="900" 
-          letter-spacing="-1.5" 
-          fill="#1C386A">
-      SYS
-    </text>
-  </g>
-
-  <!-- Bottom: Crisp Bold Red Wordmark "INTERIORS" -->
-  <g transform="translate(120, 274)">
-    <text text-anchor="middle" 
-          font-family="system-ui, -apple-system, 'Montserrat', 'Helvetica Neue', Arial, sans-serif" 
-          font-size="28" 
-          font-weight="800" 
-          letter-spacing="5.5" 
-          fill="#DE2626">
+          letter-spacing="5" 
+          fill="#DE2420">
       INTERIORS
     </text>
   </g>
