@@ -14,6 +14,11 @@
  * ==============================================================================
  */
 
+export interface CoverageZone {
+  zone: string;
+  areas: string[];
+}
+
 export interface ContactData {
   phoneRaw: string;
   phoneDisplay: string;
@@ -177,6 +182,65 @@ export const siteData = {
       "Habsiguda & Secunderabad • Serving Jubilee Hills, Banjara Hills, Gachibowli, Madhapur, Hitec City, Uppal, Kondapur & all Hyderabad.",
     consultationHours: "Mon – Sat: 9:30 AM – 8:00 PM • Sundays by appointment",
   } satisfies ContactData,
+
+  coverage: {
+    tagline: "ALL GREATER HYDERABAD & SECUNDERABAD",
+    headline: "Doorstep Swatch Consultations Across All Hyderabad",
+    description:
+      "Our lead consultants personally travel with curated fabric swatches, motorized blind catalogs, and wooden flooring textures directly to your residence, villa, or commercial site across all zones.",
+    zones: [
+      {
+        zone: "West Hyderabad (IT & Luxury Hub)",
+        areas: [
+          "Gachibowli",
+          "Hitec City",
+          "Madhapur",
+          "Financial District",
+          "Kondapur",
+          "Kokapet",
+          "Nanakramguda",
+          "Tellapur",
+          "Manikonda",
+        ],
+      },
+      {
+        zone: "Central Hyderabad (Premium Enclaves)",
+        areas: [
+          "Jubilee Hills",
+          "Banjara Hills",
+          "Somajiguda",
+          "Begumpet",
+          "Panjagutta",
+          "Khairatabad",
+        ],
+      },
+      {
+        zone: "North Hyderabad & Twin Cities",
+        areas: [
+          "Secunderabad",
+          "Kukatpally",
+          "Miyapur",
+          "Bowenpally",
+          "Sainikpuri",
+          "Kompally",
+          "Alwal",
+          "Nizampet",
+        ],
+      },
+      {
+        zone: "East & South Corridors",
+        areas: [
+          "Habsiguda",
+          "Uppal",
+          "LB Nagar",
+          "Attapur",
+          "Mehdipatnam",
+          "Nacharam",
+          "Nagole",
+        ],
+      },
+    ],
+  },
 
   founder: {
     name: "Yogender",
