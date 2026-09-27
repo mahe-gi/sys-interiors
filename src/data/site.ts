@@ -111,6 +111,7 @@ export const siteData = {
     heroSubtitle:
       "Curtains, blinds, wallpapers, flooring and customized interior solutions designed to transform the way your space feels.",
     logo: "/images/logo.svg",
+    logoIcon: "/images/logo-icon.svg",
     logoHorizontal: "/images/logo-horizontal.svg",
     logoBadge: "/images/logo-badge.svg",
     logoExact: "/images/logo-exact.png",

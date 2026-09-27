@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 110" width="200" height="110" fill="none">
+  <!-- Architectural Red Skyline & Tower Mark (Pure Logo Icon) -->
+  <g transform="translate(-10, -18)">
+    <!-- Left Wing Baseline Extension -->
+    <path d="M 22 118 L 54 118" stroke="#DE2420" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Left Building Outline -->
+    <path d="M 54 118 L 54 76 L 102 54" stroke="#DE2420" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line x1="54" y1="118" x2="54" y2="76" stroke="#DE2420" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Central Skyscraper (Slanted 3D Roofline & Solid Pillar) -->
+    <!-- Solid Left Pillar -->
+    <path d="M 102 118 L 102 54 L 122 44 L 122 118 Z" fill="#DE2420"/>
+    <!-- Central Tower Slanted Top Profile -->
+    <path d="M 102 54 L 140 34 L 140 118" stroke="#DE2420" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Tower Right Wall -->
+    <line x1="140" y1="34" x2="140" y2="118" stroke="#DE2420" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Right Building Outline & Diagonal Structural Ribbon -->
+    <path d="M 140 54 L 178 68 L 178 118" stroke="#DE2420" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 140 88 L 198 108 L 198 118" stroke="#DE2420" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

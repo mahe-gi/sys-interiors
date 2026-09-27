@@ -1,28 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 88" width="360" height="88" fill="none">
-  <!-- Left: Authentic Architectural Icon -->
-  <g transform="translate(-10, 4) scale(0.68)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 72" width="250" height="72" fill="none">
+  <!-- Left: Pure Architectural Red Skyline Icon -->
+  <g transform="translate(-10, -2) scale(0.62)">
     <!-- Left Wing Baseline Extension -->
-    <path d="M 52 118 L 84 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M 22 118 L 54 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round"/>
     <!-- Left Building Outline -->
-    <path d="M 84 118 L 84 76 L 132 54" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 54 118 L 54 76 L 102 54" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     <!-- Central Skyscraper (Slanted 3D Roofline & Solid Pillar) -->
-    <path d="M 132 118 L 132 54 L 152 44 L 152 118 Z" fill="#DE2420"/>
-    <path d="M 132 54 L 170 34 L 170 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 102 118 L 102 54 L 122 44 L 122 118 Z" fill="#DE2420"/>
+    <path d="M 102 54 L 140 34 L 140 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     <!-- Right Building Outline & Diagonal Structural Ribbon -->
-    <path d="M 170 54 L 208 68 L 208 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <path d="M 170 88 L 228 108 L 228 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 140 54 L 178 68 L 178 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 140 88 L 198 108 L 198 118" stroke="#DE2420" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
 
-  <!-- Right: Authentic Typography Lockup -->
-  <!-- "SYS" with Authentic Hollow Y Lockup -->
-  <g transform="translate(150, -4) scale(0.38)">
+  <!-- Right: Pure "SYS" Lettermark (No Extras) -->
+  <g transform="translate(118, -48) scale(0.48)">
     <!-- Left 'S' -->
     <path d="M 102 165 C 102 153 92 144 76 144 C 60 144 48 152 48 167 C 48 181 58 189 74 195 C 95 203 108 212 108 230 C 108 248 93 259 72 259 C 50 259 36 247 36 230 L 58 226 C 60 236 68 241 74 241 C 82 241 87 236 87 229 C 87 218 77 212 61 205 C 44 198 28 188 28 167 C 28 147 45 128 76 128 C 104 128 122 145 122 165 Z"
           fill="#113570"/>
     <!-- Right 'S' -->
     <path d="M 284 165 C 284 153 274 144 258 144 C 242 144 230 152 230 167 C 230 181 240 189 256 195 C 277 203 290 212 290 230 C 290 248 275 259 254 259 C 232 259 218 247 218 230 L 240 226 C 242 236 250 241 256 241 C 264 241 269 236 269 229 C 269 218 259 212 243 205 C 226 198 210 188 210 167 C 210 147 227 128 258 128 C 286 128 304 145 304 165 Z"
           fill="#113570"/>
-    <!-- Central 'Y' with Knockout & Hollow Core -->
+    <!-- Central 'Y' with Knockout & Hollow Geometric Core -->
     <path d="M 120 133 L 146 133 L 152 154 L 152 248 L 144 258 L 186 258 L 178 248 L 178 154 L 184 133 L 210 133 L 188 184 L 188 252 L 142 252 L 142 184 Z"
           stroke="#F6F3EE" stroke-width="9" stroke-linejoin="round" fill="none"/>
     <path d="M 122 133 L 148 133 L 165 174 L 182 133 L 208 133 L 180 190 L 180 252 L 150 252 L 150 190 Z"
@@ -31,14 +30,4 @@
     <polygon points="152,133 178,133 165,164" fill="#F6F3EE"/>
     <rect x="150" y="244" width="30" height="8" rx="1" fill="#113570"/>
   </g>
-
-  <!-- Wordmark "INTERIORS" -->
-  <text text-anchor="middle" x="215" y="74" 
-        font-family="system-ui, -apple-system, 'Montserrat', 'Arial Black', sans-serif" 
-        font-size="16.5" 
-        font-weight="900" 
-        letter-spacing="4.8" 
-        fill="#DE2420">
-    INTERIORS
-  </text>
 </svg>
