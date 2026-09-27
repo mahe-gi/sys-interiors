@@ -126,7 +126,7 @@ export const siteData = {
     logoBadge: "/images/logo-badge.svg",
     logoExact: "/images/logo-exact.png",
     logoUploaded: "/images/logo-uploaded.png",
-    heroImage: "/images/hero-curtains.jpg",
+    heroImage: "/images/hero-curtains.webp",
     heroSlides: [
       {
         id: "curtains",
@@ -135,7 +135,7 @@ export const siteData = {
         subtitle: "Bespoke Residential Window Craft",
         tag: "Turnkey Styling",
         accent: "sapphire",
-        image: "/images/hero-curtains.jpg",
+        image: "/images/hero-curtains.webp",
         whatsappMessage: "Hi SYS Interiors, I'm interested in Curtains & Drapery for my space.",
       },
       {
@@ -145,7 +145,7 @@ export const siteData = {
         subtitle: "Precision Daylight & Privacy Calibration",
         tag: "Motorized Systems",
         accent: "crimson",
-        image: "/images/hero-blinds.jpg",
+        image: "/images/hero-blinds.webp",
         whatsappMessage: "Hi SYS Interiors, I'm interested in Motorized Blinds for my space.",
       },
       {
@@ -155,7 +155,7 @@ export const siteData = {
         subtitle: "Natural Parquet Timber Craft",
         tag: "Surface Foundation",
         accent: "sapphire",
-        image: "/images/hero-flooring.jpg",
+        image: "/images/hero-flooring.webp",
         whatsappMessage: "Hi SYS Interiors, I'm interested in Wooden Flooring for my property.",
       },
       {
@@ -165,7 +165,7 @@ export const siteData = {
         subtitle: "Bespoke 3D Geometric Relief Styling",
         tag: "Architectural Walls",
         accent: "crimson",
-        image: "/images/hero-wallpaper.jpg",
+        image: "/images/hero-wallpaper.webp",
         whatsappMessage: "Hi SYS Interiors, I'm interested in 3D Wallpapers for my space.",
       },
     ],
