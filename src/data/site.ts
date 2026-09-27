@@ -371,7 +371,7 @@ export const siteData = {
       tagline: "Precision-engineered partitions, culinary cabinetry, and modern architectural frameworks.",
       description:
         "Modern aluminium partitions, slim-profile glass dividers, aluminium kitchens, wardrobes, and ergonomic modular kitchens configured for clean functionality and enduring durability.",
-      image: "/images/kitchen-wallpaper.webp",
+      image: "/images/modular-kitchen.webp",
       whatsappMessage:
         "Hi SYS Interiors, I'd like to discuss Space Solutions (Aluminium Partitions & Modular Kitchens).",
       subcategories: [
@@ -393,7 +393,7 @@ export const siteData = {
       tagline: "Bespoke interior treatments designed around your specific requirement.",
       description:
         "Tailored manufacturing and made-to-measure interior elements built around the unique structural dimensions, lighting requirements, and design aesthetic of your space.",
-      image: "/images/blinds-motorized.webp",
+      image: "/images/kitchen-wallpaper.webp",
       whatsappMessage:
         "Hi SYS Interiors, I'd like to discuss Customized Interior Solutions tailored to my space.",
       subcategories: [
