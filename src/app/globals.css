@@ -1,26 +1,150 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-ivory: #F6F3EE;
+  --color-surface: #FFFFFF;
+  --color-sand: #EFEBE4;
+  --color-sand-muted: #EDE7DF;
+  --color-charcoal: #181818;
+  --color-charcoal-dark: #121212;
+  --color-charcoal-card: #202020;
+  --color-muted: #66615A;
+  --color-subdued: #948E85;
+  --color-crimson: #D92525;
+  --color-sapphire: #143D6B;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #1EBE5D;
+  --border-hairline: rgba(24, 24, 24, 0.08);
+  --border-hairline-hex: #E8E3DB;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-body: var(--font-manrope), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-primary: #181818;
+  --color-secondary: #66615A;
+  --color-subdued: #948E85;
+
+  --color-sys-red: #D92525;
+  --color-sys-blue: #143D6B;
+  --color-sys-green: #25D366;
+  --color-sys-green-hover: #1EBE5D;
+
+  --color-warm-ivory: #F6F3EE;
+  --color-warm-sand: #EFEBE4;
+  --color-surface-card: #FFFFFF;
+  --color-surface-muted: #EDE7DF;
+  --color-surface-low: #EFEBE4;
+  --color-surface-dark: #121212;
+
+  --color-border-light: #E8E3DB;
+  --color-border-subdued: rgba(24, 24, 24, 0.08);
+
+  --radius-sm: 0.125rem;
+  --radius-DEFAULT: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-full: 9999px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Base resets & typography */
+html {
+  background-color: #F6F3EE;
+  color: #181818;
+  font-family: var(--font-manrope), -apple-system, BlinkMacSystemFont, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-color: #F6F3EE;
+  color: #181818;
+}
+
+/* Typography Utility Classes */
+.font-display {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+.font-body {
+  font-family: var(--font-manrope), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.label-caps {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* Subtle architectural grain */
+.editorial-grain {
+  background-image: radial-gradient(rgba(24, 24, 24, 0.035) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Hairline utility */
+.border-hairline {
+  border-color: rgba(24, 24, 24, 0.08);
+}
+
+/* Ambient lift shadow */
+.shadow-ambient {
+  box-shadow: 0 12px 32px -8px rgba(24, 24, 24, 0.06), 0 4px 12px -2px rgba(24, 24, 24, 0.03);
+}
+
+.shadow-floating {
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.28);
+}
+
+/* Accessibility focus ring */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #181818;
+  outline-offset: 2px;
+}
+
+/* Lenis smooth scrolling base support */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Respect user's reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
