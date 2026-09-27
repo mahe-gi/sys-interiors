@@ -17,20 +17,28 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#F6F3EE]/92 backdrop-blur-md border-b border-[#E8E3DB] transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-        {/* Brand Logo */}
+        {/* Brand Logo & Text Lockup */}
         <Link
           href="#hero"
-          className="flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-primary rounded-sm"
+          className="flex items-center gap-2.5 focus:outline-none focus:ring-2 focus:ring-primary rounded-sm group"
           aria-label={`${siteData.brand.name} Home`}
         >
           <Image
-            src={siteData.brand.logoHorizontal || siteData.brand.logo}
-            alt={siteData.brand.name}
-            width={190}
-            height={46}
-            className="h-10 md:h-11 w-auto object-contain"
+            src={siteData.brand.logoIcon}
+            alt=""
+            width={52}
+            height={40}
+            className="h-9 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             preload={true}
           />
+          <div className="flex flex-col leading-none justify-center">
+            <span className="font-black text-xl md:text-2xl tracking-tighter text-[#113570] font-sans">
+              SYS
+            </span>
+            <span className="text-[0.5625rem] md:text-[0.625rem] font-extrabold tracking-[0.22em] text-[#DE2420] uppercase font-sans mt-0.5">
+              INTERIORS
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation Links */}
