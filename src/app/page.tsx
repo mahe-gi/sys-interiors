@@ -8,6 +8,7 @@ import WhySYS from "@/components/sections/WhySYS";
 import ProcessSection from "@/components/sections/ProcessSection";
 import FounderSection from "@/components/sections/FounderSection";
 import AboutStudio from "@/components/sections/AboutStudio";
+import FaqSection from "@/components/sections/FaqSection";
 import DarkCTASection from "@/components/sections/DarkCTASection";
 
 export default function HomePage() {
@@ -40,7 +41,10 @@ export default function HomePage() {
       {/* 9. About The Studio & Client Reflections */}
       <AboutStudio />
 
-      {/* 10. Final Dark Sales Moment */}
+      {/* 10. Frequently Asked Questions (SEO & GEO Verified) */}
+      <FaqSection />
+
+      {/* 11. Final Dark Sales Moment */}
       <DarkCTASection />
     </main>
   );

@@ -102,6 +102,11 @@ export interface SiteNavigationItem {
   href: string;
 }
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
 export const siteData = {
   brand: {
     name: "SYS Interiors",
@@ -190,7 +195,7 @@ export const siteData = {
     { label: "Spaces", href: "#spaces" },
     { label: "Why SYS", href: "#why-sys" },
     { label: "Process", href: "#process" },
-    { label: "Founder", href: "#founder" },
+    { label: "FAQ", href: "#faqs" },
     { label: "Contact", href: "#contact" },
   ] satisfies SiteNavigationItem[],
 
@@ -440,6 +445,37 @@ export const siteData = {
         "Meticulous on-site installation by in-house technicians, clean vacuum handover, and rigorous final inspection.",
     },
   ] satisfies ProcessStep[],
+
+  /**
+   * VERIFIED FREQUENTLY ASKED QUESTIONS (SEO & GEO KNOWLEDGE GRAPH)
+   */
+  faqs: [
+    {
+      question: "Which locations in Hyderabad does SYS Interiors cover?",
+      answer:
+        "SYS Interiors services residences and commercial spaces across Hyderabad and Secunderabad, including Jubilee Hills, Banjara Hills, Gachibowli, Hitec City, Madhapur, Financial District, Kondapur, Kukatpally, Kokapet, and surrounding areas.",
+    },
+    {
+      question: "Do you bring physical fabric and blind swatches for on-site inspection?",
+      answer:
+        "Yes. Our lead consultants visit your property with physical fabric swatches for sheer and blackout curtains, sample catalogs for motorized and manual blinds, wooden flooring textures, and sun control film specifications so you can evaluate them under your actual lighting.",
+    },
+    {
+      question: "What types of window blinds do you install in Hyderabad?",
+      answer:
+        "We offer complete residential and commercial blind solutions including Zebra blinds, Motorized Roller blackout blinds, Wooden blinds, Roman blinds, Vertical blinds, Venetian blinds, Bamboo blinds, and Silver blinds with automated remote or manual control systems.",
+    },
+    {
+      question: "Can I get an estimate before scheduling an on-site visit?",
+      answer:
+        "Yes. You can send your approximate window or floor measurements directly to Lead Consultant Yogender on WhatsApp at +91 9391057602 for an immediate preliminary estimate and material recommendations.",
+    },
+    {
+      question: "What is your typical turnaround time from measurement to installation?",
+      answer:
+        "Following on-site laser measurements and material selection, standard tailored blinds and curtains are typically fabricated and professionally installed within 4 to 8 business days.",
+    },
+  ] satisfies FaqItem[],
 
   /**
    * PROJECT PORTFOLIO DATA

@@ -2,7 +2,7 @@ import React from "react";
 import { getStructuredData } from "@/lib/structuredData";
 
 export default function JsonLd() {
-  const { localBusinessSchema, websiteSchema, serviceCatalogSchema } = getStructuredData();
+  const { localBusinessSchema, websiteSchema, serviceCatalogSchema, faqSchema } = getStructuredData();
 
   return (
     <>
@@ -17,6 +17,10 @@ export default function JsonLd() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceCatalogSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
     </>
   );

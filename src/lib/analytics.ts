@@ -13,6 +13,7 @@ export type AnalyticsEventName =
   | "whatsapp_final_cta_click"
   | "whatsapp_floating_click"
   | "phone_call_click"
+  | "faq_toggle"
   | "section_view";
 
 export function trackEvent(eventName: AnalyticsEventName, payload?: Record<string, string | number | boolean>) {
