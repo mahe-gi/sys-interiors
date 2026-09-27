@@ -24,11 +24,11 @@ export default function Header() {
           aria-label={`${siteData.brand.name} Home`}
         >
           <Image
-            src={siteData.brand.logo}
+            src={siteData.brand.logoHorizontal || siteData.brand.logo}
             alt={siteData.brand.name}
-            width={220}
-            height={48}
-            className="h-9 md:h-10 w-auto object-contain"
+            width={190}
+            height={46}
+            className="h-10 md:h-11 w-auto object-contain"
             preload={true}
           />
         </Link>

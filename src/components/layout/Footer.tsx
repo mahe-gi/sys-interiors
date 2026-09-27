@@ -10,14 +10,13 @@ export default function Footer() {
   return (
     <footer className="bg-[#EFEBE4] border-t border-[#E8E3DB] py-12 px-6 lg:px-12 text-secondary" aria-label="Site Footer">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-xs">
-        {/* Brand Logo in Footer */}
         <div className="flex items-center gap-3">
           <Image
-            src={siteData.brand.logo}
+            src={siteData.brand.logoHorizontal || siteData.brand.logo}
             alt={siteData.brand.name}
-            width={160}
-            height={34}
-            className="h-7 w-auto object-contain opacity-85"
+            width={180}
+            height={44}
+            className="h-9 w-auto object-contain opacity-90"
             loading="lazy"
           />
         </div>

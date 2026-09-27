@@ -1,15 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60" fill="none">
-  <!-- Minimal architectural SYS mark -->
-  <g transform="translate(6, 10)">
-    <!-- Architectural geometric framing line -->
-    <rect x="0" y="2" width="36" height="36" rx="3" stroke="#181818" stroke-width="2.5" fill="none"/>
-    <!-- Subtle SYS brand red & blue interior geometric accents -->
-    <line x1="8" y1="12" x2="28" y2="12" stroke="#D92525" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="8" y1="20" x2="22" y2="20" stroke="#181818" stroke-width="2" stroke-linecap="round"/>
-    <line x1="8" y1="28" x2="28" y2="28" stroke="#143D6B" stroke-width="2.5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 310" width="240" height="310" fill="none">
+  <!-- Architectural Skyline Icon (Vibrant Crimson) -->
+  <g transform="translate(12, 10)">
+    <!-- Base Reference Line -->
+    <path d="M 18 126 L 198 126" stroke="#DE2626" stroke-width="3" stroke-linecap="round" opacity="0.15"/>
+
+    <!-- Left Building Wireframe -->
+    <path d="M 44 126 L 44 88 L 68 64 L 92 78 L 92 126" 
+          stroke="#DE2626" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line x1="68" y1="64" x2="68" y2="126" stroke="#DE2626" stroke-width="3" stroke-linecap="round"/>
+    <!-- Left Wing Outer Line -->
+    <path d="M 22 126 L 22 108 L 44 88" 
+          stroke="#DE2626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Right Building Wireframe & Dynamic Architectural Ribbon -->
+    <path d="M 124 126 L 124 74 L 148 60 L 172 82 L 172 126" 
+          stroke="#DE2626" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line x1="148" y1="60" x2="148" y2="126" stroke="#DE2626" stroke-width="3" stroke-linecap="round"/>
+    <!-- Right Wing Outer Arch / Slant -->
+    <path d="M 172 82 L 194 102 L 194 126" 
+          stroke="#DE2626" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Dynamic Crossing Architectural Stroke -->
+    <path d="M 132 118 Q 164 100 188 116" 
+          stroke="#DE2626" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Central Featured Skyscraper Tower -->
+    <!-- Solid Facet Left -->
+    <path d="M 92 126 L 92 36 L 108 12 L 108 126 Z" fill="#DE2626"/>
+    <!-- Facet Right (Geometric Perspective) -->
+    <path d="M 108 12 L 124 28 L 124 126 L 108 126 Z" fill="#BE1E1E"/>
+    <!-- Vertical Spine Divider -->
+    <line x1="108" y1="12" x2="108" y2="126" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <!-- Rooftop Slant Cap Outline -->
+    <path d="M 92 36 L 108 12 L 124 28" stroke="#DE2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
-  <!-- Wordmark -->
-  <text x="56" y="32" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700" letter-spacing="1.5" fill="#181818">SYS</text>
-  <text x="118" y="32" font-family="'Manrope', -apple-system, sans-serif" font-size="20" font-weight="300" letter-spacing="3" fill="#66615A">INTERIORS</text>
-  <text x="57" y="44" font-family="'Manrope', -apple-system, sans-serif" font-size="7.5" font-weight="600" letter-spacing="2" fill="#8C827A">DESIGNING SPACES • DEFINING LIFESTYLES</text>
+
+  <!-- Middle: Bold Royal Navy Lettermark "SYS" -->
+  <g transform="translate(120, 218)">
+    <text text-anchor="middle" 
+          font-family="system-ui, -apple-system, 'Montserrat', 'Helvetica Neue', Arial, sans-serif" 
+          font-size="78" 
+          font-weight="900" 
+          letter-spacing="-1.5" 
+          fill="#1C386A">
+      SYS
+    </text>
+  </g>
+
+  <!-- Bottom: Crisp Bold Red Wordmark "INTERIORS" -->
+  <g transform="translate(120, 274)">
+    <text text-anchor="middle" 
+          font-family="system-ui, -apple-system, 'Montserrat', 'Helvetica Neue', Arial, sans-serif" 
+          font-size="28" 
+          font-weight="800" 
+          letter-spacing="5.5" 
+          fill="#DE2626">
+      INTERIORS
+    </text>
+  </g>
 </svg>
