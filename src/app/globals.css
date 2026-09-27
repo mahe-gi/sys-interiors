@@ -133,6 +133,20 @@ html.lenis body {
   pointer-events: none;
 }
 
+/* Carousel Progress Animation */
+@keyframes carouselProgress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-carousel-progress {
+  animation: carouselProgress 5000ms linear forwards;
+}
+
 /* Respect user's reduced-motion preference */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
