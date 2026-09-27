@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Favicon Container / Background -->
+  <rect width="64" height="64" rx="14" fill="#F6F3EE"/>
+  
+  <!-- Architectural Red Skyline Icon (Optimized for Small Tab Viewing) -->
+  <g transform="translate(6, 10) scale(0.38)">
+    <!-- Baseline -->
+    <path d="M 8 108 L 36 108" stroke="#DE2420" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Left Building Outline -->
+    <path d="M 36 108 L 36 68 L 74 48" stroke="#DE2420" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line x1="36" y1="108" x2="36" y2="68" stroke="#DE2420" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Central Skyscraper (Solid Pillar & Slanted 3D Roof) -->
+    <!-- Solid Left Pillar -->
+    <path d="M 74 108 L 74 48 L 92 38 L 92 108 Z" fill="#DE2420"/>
+    <!-- Central Tower Slanted Roof -->
+    <path d="M 74 48 L 106 30 L 106 108" stroke="#DE2420" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Tower Right Wall -->
+    <line x1="106" y1="30" x2="106" y2="108" stroke="#DE2420" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- Right Building Outline & Diagonal Structural Ribbon -->
+    <path d="M 106 48 L 138 62 L 138 108" stroke="#DE2420" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 106 80 L 148 98 L 148 108" stroke="#DE2420" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
