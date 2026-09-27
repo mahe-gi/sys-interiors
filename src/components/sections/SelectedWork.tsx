@@ -22,21 +22,21 @@ interface ShowcaseVignette {
 const VIGNETTES: ShowcaseVignette[] = [
   {
     title: "Double-Height Aperture Drapery & Sheers",
-    category: "Residential Architecture",
+    category: "Window Solutions",
     tagAccent: "crimson",
-    tagLabel: "Drapery Case Study",
+    tagLabel: "Window Solutions",
     description: "Concealed motorized track systems with fluid ceiling-recessed sheer fabrics for seamless light filtering.",
     image: "/images/curtains-sheer.webp",
     aspectRatioClass: "aspect-[16/9] lg:aspect-[21/9]",
     colSpanClass: "md:col-span-12",
     servicesTag: "Motorized Curtains & Sheers",
-    whatsappMessage: "Hi SYS Interiors, I'm interested in double-height curtain drapery solutions for my home.",
+    whatsappMessage: "Hi SYS Interiors, I'm interested in double-height curtain drapery solutions for my space.",
   },
   {
     title: "Natural Herringbone Wooden Foundation",
-    category: "Living Pavilion",
+    category: "Flooring Solutions",
     tagAccent: "sapphire",
-    tagLabel: "Floor Craftsmanship",
+    tagLabel: "Underfoot Craft",
     description: "High-density scratch-resistant timber laid in classic herringbone geometry across open floor plans.",
     image: "/images/flooring-wood.webp",
     aspectRatioClass: "aspect-[4/3]",
@@ -45,10 +45,10 @@ const VIGNETTES: ShowcaseVignette[] = [
     whatsappMessage: "Hi SYS Interiors, I'd like to consult on herringbone wooden flooring for my space.",
   },
   {
-    title: "Solar Heat Rejection & Acoustic Partitions",
-    category: "Executive Environment",
+    title: "Solar Heat Rejection & Architectural Glazing",
+    category: "Sun Control & Glazing",
     tagAccent: "crimson",
-    tagLabel: "Commercial Installation",
+    tagLabel: "Solar Glazing & Films",
     description: "Certified 3M and Garware architectural solar control films paired with slim-profile privacy glass framing.",
     image: "/images/blinds-motorized.webp",
     aspectRatioClass: "aspect-[4/3]",
@@ -58,7 +58,7 @@ const VIGNETTES: ShowcaseVignette[] = [
   },
   {
     title: "Architectural Wall Murals & Joinery",
-    category: "Modern High-Rise",
+    category: "Wallpapers & Joinery",
     tagAccent: "sapphire",
     tagLabel: "Surface & Joinery",
     description: "Embossed 3D dimensional wallpapers integrated with customized modular cabinetry and discreet roller shading.",
@@ -79,21 +79,21 @@ export default function SelectedWork() {
     <section
       id="selected-work"
       className="py-20 lg:py-28 bg-[#EFEBE4] border-t border-[#E8E3DB] px-6 lg:px-12"
-      aria-label="Selected Work & Design Proof"
+      aria-label="Selected Craft Solutions"
     >
       <div className="max-w-7xl mx-auto space-y-12">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div className="space-y-2">
             <span className="text-xs uppercase tracking-[0.24em] text-sys-red font-semibold block">
-              Portfolio of Transformations
+              Craft Capabilities &amp; Proof
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-primary">
               See the difference.
             </h2>
           </div>
           <p className="text-sm text-secondary max-w-sm font-light">
-            Realized interior craftsmanship across Hyderabad&apos;s premier residences and corporate spaces.
+            Precision window treatments, surface installations, and customized interior craftsmanship across Hyderabad.
           </p>
         </div>
 

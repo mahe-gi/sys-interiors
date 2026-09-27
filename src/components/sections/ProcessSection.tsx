@@ -22,29 +22,33 @@ export default function ProcessSection() {
         </p>
       </div>
 
-      <div className="relative">
-        {/* Architectural Datum Line for Desktop */}
-        <div className="hidden lg:block absolute top-7 left-12 right-12 h-[1px] bg-[#D8D2C7] z-0" aria-hidden="true"></div>
-
-        {/* 4 Steps Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
-          {process.map((p) => (
-            <div
-              key={p.step}
-              className="bg-white p-6 lg:p-7 rounded-sm border border-[#E8E3DB] space-y-4 shadow-sm"
-            >
-              <div className="w-14 h-14 rounded-full bg-[#F6F3EE] border border-[#D8D2C7] flex items-center justify-center font-display text-lg text-primary">
+      {/* 4 Steps Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        {process.map((p, index) => (
+          <div
+            key={p.step}
+            className="bg-white p-6 lg:p-8 rounded-sm border border-[#E8E3DB] space-y-5 shadow-sm flex flex-col justify-between relative group hover:border-[#D8D2C7] transition-colors"
+          >
+            {/* Top Step Number Header */}
+            <div className="flex items-center justify-between border-b border-[#E8E3DB]/60 pb-4">
+              <div className="w-11 h-11 rounded-full bg-[#F6F3EE] border border-[#D8D2C7] flex items-center justify-center font-display text-base text-primary font-semibold">
                 {p.step}
               </div>
-              <h3 className="font-display text-lg text-primary font-medium">
+              <span className="text-[0.6875rem] font-mono tracking-widest text-secondary uppercase">
+                Phase 0{index + 1}
+              </span>
+            </div>
+
+            <div className="space-y-2">
+              <h3 className="font-display text-xl text-primary font-medium">
                 {p.title}
               </h3>
               <p className="text-xs lg:text-sm text-secondary font-light leading-relaxed">
                 {p.description}
               </p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );
