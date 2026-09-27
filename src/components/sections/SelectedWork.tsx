@@ -38,7 +38,7 @@ const VIGNETTES: ShowcaseVignette[] = [
     tagAccent: "sapphire",
     tagLabel: "Underfoot Craft",
     description: "High-density scratch-resistant timber laid in classic herringbone geometry across open floor plans.",
-    image: "/images/flooring-wood.webp",
+    image: "/images/interior-finishes.webp",
     aspectRatioClass: "aspect-[4/3]",
     colSpanClass: "md:col-span-6",
     servicesTag: "Herringbone Wood & Acoustic Underlay",

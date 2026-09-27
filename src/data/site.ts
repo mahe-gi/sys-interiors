@@ -347,7 +347,7 @@ export const siteData = {
       tagline: "Bring warmth, natural texture, and geometric depth underfoot and across every wall.",
       description:
         "Give your interiors a refined foundation with scratch-resistant wooden flooring, high-durability vinyl, wall-to-wall carpets, and customized 3D dimension wallpapers tailored to room geometry.",
-      image: "/images/flooring-wood.webp",
+      image: "/images/interior-finishes.webp",
       whatsappMessage:
         "Hi SYS Interiors, I would like to explore Wall and Floor Finishes (Wallpapers & Flooring) for my property.",
       subcategories: [
